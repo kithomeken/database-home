@@ -3,6 +3,7 @@ import './App.css';
 import { Helmet } from "react-helmet";
 import postgreSQL from './assets/postgresql-logo-svgrepo-com.svg'
 import marketting from './assets/marketing.ddb9a5b3.png'
+import marketingShapes from './assets/marketing-shape.b13d8778.png'
 import servers from './assets/servers.png'
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik&display=swap" rel="stylesheet" />
             </Helmet>
 
-            <div className="relative h-screen overflow-hidden">
+            <div className="relative h-screen overflow-hidden" style={{
+                background: `rgba(0, 0, 0, 0) url("${marketingShapes}") repeat scroll 0% 0%`
+            }}>
                 <div className="max-w-7xl mx-auto">
                     <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                         <div>
@@ -35,7 +38,7 @@ function App() {
                         </div>
 
                         <main className="mt-6 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-10 lg:px-8 xl:mt-28">
-                            <div className="sm:text-center px-8 bg-white sm:max-w-2xl sm:m-auto py-3 lg:text-left">
+                            <div className="sm:text-center px-8 sm:max-w-2xl sm:m-auto py-3 lg:text-left">
                                 <h1 className="text-2xl tracking-tight text-gray-900 sm:text-5xl md:text-5xl">
                                     <span className="block xl:inline">
                                         Cloud infrastructure for your
@@ -55,7 +58,7 @@ function App() {
                                 </p>
                                 
                                 <div className="mt-5 sm:mt-5 sm:flex flex-col lg:w-7/12 md:w-6/12 md:ml-4 lg:ml-0 mb-6 sm:justify-center lg:justify-start">
-                                    <div className="rounded-md shadow-none">
+                                    <div className="rounded-md shadow-none rubik">
                                         <a href="https://database.kennedykitho.me/pgadmin4" className="w-full text-sm flex align-middle px-4 py-3 border border-emerald-500 font-medium rounded-md text-gray-700 hover:bg-emerald-50 md:py-3 md:text-lg md:px-5 flex-row">
                                             <div className="w-6 h-6 mr-3">
                                                 <img alt="psql" className="" src={postgreSQL} />
