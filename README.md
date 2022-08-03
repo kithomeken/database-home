@@ -7,4 +7,4 @@ This project was bootstrapped with [Create React App](https://database.kennedyki
 
 ### Deployment
 
-Item has been deployed at: [Cloud Database](https://facebook.github.io/create-react-app/docs/deployment)
+Item has been deployed at: [Cloud Database](https://database.kennedykitho.me)
